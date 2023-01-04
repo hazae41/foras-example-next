@@ -4,7 +4,6 @@ async function test() {
   await Foras.initBundledOnce()
 
   const bytes = new TextEncoder().encode("Hello world")
-  console.log("Bytes", bytes)
 
   {
     console.log("--- Deflate ---")
